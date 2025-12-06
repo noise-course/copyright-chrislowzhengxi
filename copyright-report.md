@@ -251,7 +251,7 @@ YouTube claims several points, such as: All uploads are scanned by Content ID, c
 
 YouTube’s policy emphasizes that Content ID is an *automated matching system*, not a fair-use evaluator. This might explain why we get the checks so quickly - the content ID must have been scanned for my longer video. I have a feeling that YouTube disregards videos that are too short and consider them as edge cases. 
 
-### **3. Actual Enforcement (Your Results)**
+### **3. Actual Enforcement**
 
 My three uploads show a mixed pattern:
 
