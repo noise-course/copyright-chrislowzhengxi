@@ -78,6 +78,101 @@ Immediate. Checks completed in a few seconds.
 
 
 
+---
+
+# **Section 3: AI-Generated Content Investigation**
+
+## **Experiment 1: Direct Reference Prompt**
+
+**Prompt used:**
+“Create an illustration of Pikachu wearing a scarf and walking in the snow.”
+
+**What happened:**
+This prompt failed every time. ChatGPT refused to generate the image and returned the message: **“This image generation request did not follow our content policy.”**
+I tried multiple times, but the model rejected the request each time.
+
+**Screenshot:**
+N/A (It was totally blocked by ChatGPT.) 
+
+**Platform response (YouTube):**
+N/A (I could not generate the image at all). 
+
+**Notes:**
+This shows that the AI model itself blocks direct reproduction of copyrighted characters. The restriction happened before any platform enforcement. This is an interesting contrast with my fair use experiments, where YouTube scanned the uploads. Here, the AI tool enforced copyright protection at the generation stage.
+
+---
+
+## **Experiment 2: Style or Franchise Mimicry Prompt**
+
+**Initial prompt:**
+“In the style of Studio Ghibli, create a Christmas scene.”
+
+**What happened:**
+ChatGPT refused to generate this image as well, again due to policy restrictions. The message was the same as above.
+
+**Revised approach:**
+I switched to a different copyrighted reference. I asked for a Tetris-themed Christmas scene:
+“Generate an illustration of Tetris, but with a Christmas effect.”
+
+**Outcome:**
+This prompt worked. ChatGPT generated a Christmas-themed Tetris illustration with falling blocks, snow, and holly decorations. The style suggested Tetris, but it did not copy an exact copyrighted design.
+
+**Screenshot:**
+`screenshots/AI-Tetris.png`
+
+**Platform response (YouTube):**
+For this part, I combined Experiment 2 and Experiment 3 in a short 10-second video and uploaded it to YouTube. It was simply a playback of the two images. YouTube did **not** flag it. There were no copyright claims, warnings, or visibility restrictions.
+
+**Notes:**
+This result shows that style-based or franchise-inspired prompts sometimes pass through the AI model, as long as the generated output does not reproduce a specific copyrighted asset. YouTube also did not detect any issue, even though Tetris is a well-known copyrighted property. I feel like it's because I did not include the Tetris logo. 
+
+---
+
+## **Experiment 3: Original Content Prompt (Control Group)**
+
+**Prompt used:**
+“Generate an abstract geometric landscape with bright colors and no recognizable characters.”
+
+**Outcome:**
+ChatGPT generated the image immediately. There were no warnings or refusals. The output is completely original and does not resemble any copyrighted character, artwork, or franchise.
+
+**Screenshot:**
+`screenshots/AI-Art.png`
+
+**Platform response (YouTube):**
+I uploaded the abstract image. YouTube did not flag it. There were no claims, warnings, or restrictions. (It was the same video as the Tetris one.) 
+
+**Notes:**
+This was the simplest upload of the three. Both the AI model and YouTube treated it the same as any regular image. 
+
+---
+
+## **Research Findings**
+
+### **1. What ChatGPT’s Terms of Service Say About Copyright**
+
+ChatGPT’s public guidelines explain that the model cannot create images of copyrighted characters or artwork unless the user has explicit permission. The tool is designed to avoid generating content that copies protected IP. It also avoids requests that try to mimic or recreate characters, scenes, logos, or visual assets from well-known franchises.
+Instead, the model pushes users toward original creations or style-inspired content that does not replicate copyrighted material.
+
+### **2. Who Owns the Copyright to AI-Generated Content?**
+
+Based on current U.S. copyright law and OpenAI’s terms:
+
+* **AI-generated content generally has no human author**, so it does not qualify for traditional copyright protection under U.S. law.
+* OpenAI’s terms allow the user to *use* and *publish* the output, but that does not mean the user owns a copyright in the legal sense.
+* Courts and the U.S. Copyright Office have consistently stated that works created by an AI system alone cannot receive copyright protection.
+* If a user contributes meaningful creative input (for example, heavy editing), then parts of the work may qualify for copyright, but the AI-generated elements themselves do not.
+
+So, the simplest explanation:
+**I can use the images freely, but they are not copyrighted works owned by me or the AI company. They generally fall into a category with no copyright protection.**
+
+### **3. YouTube’s Policy on AI-Generated Content**
+
+YouTube does not treat AI-generated images differently from user-created images. As long as the upload does not contain copyrighted material that matches Content ID, the image is allowed.
+There is no special tag, claim, or warning applied to AI content in this experiment. The platform only cares whether the uploaded video or image matches a copyrighted reference file in its system.
+
+---
+
 
 
 
@@ -169,6 +264,56 @@ My three uploads show a mixed pattern:
 Here are some gaps that I discover from these experiments 
 * The short raw clip slipped through despite being the least defensible legally, so the **Content ID did not enforce consistently**. YouTube might have let some shorter clips slip through, not to mention that my short clip only has music, but no singing yet. 
 * **The system does not evaluate fair use.** It only matches fingerprints. My commentary clip might legally qualify as fair use, but the system simply didn’t match it.
-*In my second experiment, the content was claimed but allowed. This does not reflect a legal judgment — just a policy choice by the rights holder. This means that **rights holders control enforcement.** 
+* In my second experiment, the content was claimed but allowed. This does not reflect a legal judgment, but just a policy choice by the rights holder. This means that **rights holders control enforcement.** 
 * Platforms like YouTube avoid legal interpretation and rely on automated detection, which can under-detect or mis-detect content.
+
+
+
+
+# **Section 5: Appendix**
+
+## **Screenshots**
+
+All screenshots used in this report are stored in the **`/screenshots`** folder of this repository.
+Each file name describes the experiment and the stage of the upload (for example: `exp1-upload.png`, `exp2-claim.png`, `ai2-output.png`).
+
+## **Links to Uploaded Content**
+
+Below are the links to the YouTube uploads used in Section 2 and Section 3.
+
+* Original video (blink-182 I Miss You Official Video): *[https://www.youtube.com/watch?v=s1tAYmMjLdY&list=RDs1tAYmMjLdY&start_radio=1]*
+* Short raw clip (7 seconds): *[https://www.youtube.com/watch?v=e0QFSOUaanU]*
+* Longer raw clip (30 seconds): *[https://www.youtube.com/watch?v=ednjAtA10rw]*
+* Clip with captions (commentary-style): *[https://www.youtube.com/watch?v=BXs9xo-rkxg]*
+* AI-generated uploads: *[https://www.youtube.com/watch?v=WeuFXuo6vjg]*
+
+If any videos were removed or set to private later, the links still show the original upload location.
+
+## **Timestamps of Uploads and Detection**
+
+For each experiment, I noted when the video was uploaded and when YouTube completed its automated copyright check:
+
+* **Short raw clip (7 seconds):**
+
+  * Upload time: [12/05/2025, 8:18 pm]
+  * Detection result: *No issues found*
+  * Detection timing: *Immediate—check completed in a few seconds*
+
+* **Long raw clip (30 seconds):**
+
+  * Upload time: [12/05/2025, 8:32 pm]
+  * Detection result: *Copyright-protected content found; owner allows use*
+  * Detection timing: *Immediate—Content ID identified the clip during the upload check*
+
+* **Caption/Commentary-style clip:**
+
+  * Upload time: [12/05/2025, 8:45 pm]
+  * Detection result: *No copyright issues found*
+  * Detection timing: *Immediate—no claims or warnings*
+
+* **AI-generated images:**
+
+  * Upload time: [12/05/2025, 9:12 pm]
+  * No copyright claims for any AI-generated content
+  * Detection timing: *Immediate—YouTube flagged nothing*
 
